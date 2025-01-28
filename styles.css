@@ -21,11 +21,11 @@ body {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1rem;
-  background-color: grey;
-  width: 90%;
-  height: 90%;
-  border: 30px solid grey;
+  grid-gap: 2rem;
+  background-color: rgb(209, 209, 209);
+  width: 85%;
+  height: 85%;
+  border: 30px solid rgb(209, 209, 209);
   border-radius: 1rem;
 }
 
@@ -46,7 +46,22 @@ header {
 main {
   grid-area: 2 / 2 / 3 / 3;
   background-color: aliceblue;
-  border-color: #2bc5cd;
+  border: 5px solid #48b5bb;
+  color: #48b5bb;
+  padding: 25%;
+  text-align: center;
+  font-size: 25px;
+}
+
+header {
+  text-align: center;
+  color: aliceblue;
+  font-size: 40px;
+}
+
+header > p {
+  margin-top: 50%;
+  font-size: 30px;
 }
 
 .time {
@@ -61,9 +76,21 @@ main {
 
 footer {
   grid-area: 3 / 2 / 4 / 4;
+  color: aliceblue;
   background-color: #ff693d;
+  padding: 3%;
+  font-size: 20px;
 }
-
+h3 {
+  font-size: 30px;
+  margin-bottom: 5%;
+}
+button {
+  margin-top: 3%;
+  width: 200px;
+  height: 100px;
+  font-size: 25px;
+}
 .alumni,
 .school,
 .student,
